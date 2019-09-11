@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConcurrentGetPingStatusLogger",
+            "request": "launch",
+            "mainClass": "com.dhl.loadgen.ConcurrentGetPingStatusLogger",
+            "projectName": "load"
+        }
+    ]
+}
