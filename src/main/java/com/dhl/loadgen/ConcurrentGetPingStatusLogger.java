@@ -62,6 +62,7 @@ public class ConcurrentGetPingStatusLogger {
                 HttpURLConnection connection = (HttpURLConnection) siteURL.openConnection();
                 connection.setRequestMethod("GET");
                 connection.setConnectTimeout(TIMEOUT);
+                connection.setReadTimeout(TIMEOUT);
                 connection.connect();
 
                 code = connection.getResponseCode();
